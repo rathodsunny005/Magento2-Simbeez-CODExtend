@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Payment\Model\Method\AbstractMethod">
+        <plugin name="cod_payment_method_enable_for_customergroup" type="Simbeez\CODExtend\Plugin\Model\Method\Available" sortOrder="1" disabled="false" />
+    </type>
+</config>
